@@ -1,0 +1,95 @@
+body{ padding-left: 10px;
+background-color: #cccccc;
+}
+
+header{
+padding-top: 100px;
+height: 154px;
+background-image: url("./media/header.png");
+}
+
+h1{
+  font-style: normal;
+  font-weight: bold;
+  font-family: fantasy;
+  font-size: 80px;
+  color: #f8f8ff;
+  text-align: center;
+
+}
+
+
+h2{
+  font-style: normal;
+  font-family:sans-serif;
+  color: blue;
+}
+
+h3{
+
+  font-size: 30px;
+  text-align: center;
+  font-family:monospace;
+  text-shadow:
+  0 3px 4px #888;
+}
+
+li {color: blue;}
+
+.centrale{
+background-image: url("./media/sfondo.jpg");
+height: 870px;
+align-items: center;
+text-align: center;
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding: 4px;
+    overflow: hidden;
+    background-color: #000080;
+
+}
+
+li {float: left;}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+
+li a:hover:not(.active) {  background-color: #111;}
+
+.active {background-color: #4CAF50;}
+.spazioMenu{height:15px;}
+.spazio{height:50px;}
+.validator{padding-left: 1040px;}
+
+.testo1{
+  font-family: monospace;
+
+  font-weight: 400;
+  font-size: 18px;
+  text-indent: 1em;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.testo2{
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 18px;
+  text-indent: 1em;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+#Copyright{
+color: black;
+font-style: oblique;
+}
